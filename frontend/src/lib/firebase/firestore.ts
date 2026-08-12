@@ -33,3 +33,4 @@ export function getNotesCollection() {
 export function noteDoc(id: string) {
   return doc(getNotesCollection(), id)
 }
+
